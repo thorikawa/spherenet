@@ -30,7 +30,7 @@ def main():
     tan1 = np.arctan2(y1, x)
     tan2 = np.arctan2(y2, x)
 
-    for i in range(1, 12):
+    for i in range(1, DIV):
         theta1 = tan1 + i*2*math.pi/DIV
         theta2 = tan2 + i*2*math.pi/DIV
         x1rot1 = r * np.cos(theta1)
